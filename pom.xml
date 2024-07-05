@@ -36,12 +36,12 @@
   </build>
 	<distributionManagement>
 		<repository>
-			<id>nexus</id>
+			<id>simple-java-maven-app-release</id>
 			<name>simple-java-maven-app-releases</name>
 			<url>http://localhost:8081/repository/simple-java-maven-app-releases</url>
 		</repository>
 		<snapshotRepository>
-			<id>nexus</id>
+			<id>simple-java-maven-app-snapshot</id>
 			<name>simple-java-maven-app-snapshots</name>
 			<url>http://localhost:8081/repository/simple-java-maven-app-snapshots</url>
 		</snapshotRepository>
