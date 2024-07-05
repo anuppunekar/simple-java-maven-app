@@ -34,16 +34,16 @@
       </plugin>
     </plugins>
   </build>
-	<distributionManagement>
-		<repository>
-			<id>simple-java-maven-app-release</id>
-			<name>simple-java-maven-app-releases</name>
-			<url>http://localhost:8081/repository/simple-java-maven-app-releases</url>
-		</repository>
-		<snapshotRepository>
-			<id>simple-java-maven-app-snapshot</id>
-			<name>simple-java-maven-app-snapshots</name>
-			<url>http://localhost:8081/repository/simple-java-maven-app-snapshots</url>
-		</snapshotRepository>
-	</distributionManagement>
+<distributionManagement>
+	<repository>
+		<id>simple-java-maven-app-release</id>
+		<name>simple-java-maven-app-releases</name>
+		<url>http://localhost:8081/repository/simple-java-maven-app-releases/</url>
+	</repository>
+	<snapshotRepository>
+		<id>simple-java-maven-app-snapshot</id>
+		<name>simple-java-maven-app-snapshots</name>
+		<url>http://localhost:8081/repository/simple-java-maven-app-snapshots/</url>
+	</snapshotRepository>
+</distributionManagement>
 </project>
